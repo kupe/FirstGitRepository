@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6FBB38B216B794300B820CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FBB38A216B794300B820CC /* AppDelegate.m */; };
+		B6FBB38E216B794300B820CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FBB38D216B794300B820CC /* ViewController.m */; };
+		B6FBB391216B794300B820CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6FBB38F216B794300B820CC /* Main.storyboard */; };
+		B6FBB393216B794400B820CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6FBB392216B794400B820CC /* Assets.xcassets */; };
+		B6FBB396216B794400B820CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6FBB394216B794400B820CC /* LaunchScreen.storyboard */; };
+		B6FBB399216B794400B820CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FBB398216B794400B820CC /* main.m */; };
+		B6FBB3A3216B794400B820CC /* FirstGitubAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FBB3A2216B794400B820CC /* FirstGitubAppTests.m */; };
+		B6FBB3AE216B794400B820CC /* FirstGitubAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FBB3AD216B794400B820CC /* FirstGitubAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6FBB39F216B794400B820CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6FBB37E216B794200B820CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6FBB385216B794200B820CC;
+			remoteInfo = FirstGitubApp;
+		};
+		B6FBB3AA216B794400B820CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6FBB37E216B794200B820CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6FBB385216B794200B820CC;
+			remoteInfo = FirstGitubApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6FBB386216B794200B820CC /* FirstGitubApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstGitubApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6FBB389216B794300B820CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6FBB38A216B794300B820CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6FBB38C216B794300B820CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6FBB38D216B794300B820CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6FBB390216B794300B820CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6FBB392216B794400B820CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6FBB395216B794400B820CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6FBB397216B794400B820CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6FBB398216B794400B820CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6FBB39E216B794400B820CC /* FirstGitubAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstGitubAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6FBB3A2216B794400B820CC /* FirstGitubAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstGitubAppTests.m; sourceTree = "<group>"; };
+		B6FBB3A4216B794400B820CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6FBB3A9216B794400B820CC /* FirstGitubAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstGitubAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6FBB3AD216B794400B820CC /* FirstGitubAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstGitubAppUITests.m; sourceTree = "<group>"; };
+		B6FBB3AF216B794400B820CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6FBB383216B794200B820CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FBB39B216B794400B820CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FBB3A6216B794400B820CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6FBB37D216B794200B820CC = {
+			isa = PBXGroup;
+			children = (
+				B6FBB388216B794200B820CC /* FirstGitubApp */,
+				B6FBB3A1216B794400B820CC /* FirstGitubAppTests */,
+				B6FBB3AC216B794400B820CC /* FirstGitubAppUITests */,
+				B6FBB387216B794200B820CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6FBB387216B794200B820CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6FBB386216B794200B820CC /* FirstGitubApp.app */,
+				B6FBB39E216B794400B820CC /* FirstGitubAppTests.xctest */,
+				B6FBB3A9216B794400B820CC /* FirstGitubAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6FBB388216B794200B820CC /* FirstGitubApp */ = {
+			isa = PBXGroup;
+			children = (
+				B6FBB389216B794300B820CC /* AppDelegate.h */,
+				B6FBB38A216B794300B820CC /* AppDelegate.m */,
+				B6FBB38C216B794300B820CC /* ViewController.h */,
+				B6FBB38D216B794300B820CC /* ViewController.m */,
+				B6FBB38F216B794300B820CC /* Main.storyboard */,
+				B6FBB392216B794400B820CC /* Assets.xcassets */,
+				B6FBB394216B794400B820CC /* LaunchScreen.storyboard */,
+				B6FBB397216B794400B820CC /* Info.plist */,
+				B6FBB398216B794400B820CC /* main.m */,
+			);
+			path = FirstGitubApp;
+			sourceTree = "<group>";
+		};
+		B6FBB3A1216B794400B820CC /* FirstGitubAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6FBB3A2216B794400B820CC /* FirstGitubAppTests.m */,
+				B6FBB3A4216B794400B820CC /* Info.plist */,
+			);
+			path = FirstGitubAppTests;
+			sourceTree = "<group>";
+		};
+		B6FBB3AC216B794400B820CC /* FirstGitubAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6FBB3AD216B794400B820CC /* FirstGitubAppUITests.m */,
+				B6FBB3AF216B794400B820CC /* Info.plist */,
+			);
+			path = FirstGitubAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6FBB385216B794200B820CC /* FirstGitubApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6FBB3B2216B794400B820CC /* Build configuration list for PBXNativeTarget "FirstGitubApp" */;
+			buildPhases = (
+				B6FBB382216B794200B820CC /* Sources */,
+				B6FBB383216B794200B820CC /* Frameworks */,
+				B6FBB384216B794200B820CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstGitubApp;
+			productName = FirstGitubApp;
+			productReference = B6FBB386216B794200B820CC /* FirstGitubApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6FBB39D216B794400B820CC /* FirstGitubAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6FBB3B5216B794400B820CC /* Build configuration list for PBXNativeTarget "FirstGitubAppTests" */;
+			buildPhases = (
+				B6FBB39A216B794400B820CC /* Sources */,
+				B6FBB39B216B794400B820CC /* Frameworks */,
+				B6FBB39C216B794400B820CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6FBB3A0216B794400B820CC /* PBXTargetDependency */,
+			);
+			name = FirstGitubAppTests;
+			productName = FirstGitubAppTests;
+			productReference = B6FBB39E216B794400B820CC /* FirstGitubAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6FBB3A8216B794400B820CC /* FirstGitubAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6FBB3B8216B794400B820CC /* Build configuration list for PBXNativeTarget "FirstGitubAppUITests" */;
+			buildPhases = (
+				B6FBB3A5216B794400B820CC /* Sources */,
+				B6FBB3A6216B794400B820CC /* Frameworks */,
+				B6FBB3A7216B794400B820CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6FBB3AB216B794400B820CC /* PBXTargetDependency */,
+			);
+			name = FirstGitubAppUITests;
+			productName = FirstGitubAppUITests;
+			productReference = B6FBB3A9216B794400B820CC /* FirstGitubAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6FBB37E216B794200B820CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Kupendiran Alagarsamy";
+				TargetAttributes = {
+					B6FBB385216B794200B820CC = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					B6FBB39D216B794400B820CC = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = B6FBB385216B794200B820CC;
+					};
+					B6FBB3A8216B794400B820CC = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = B6FBB385216B794200B820CC;
+					};
+				};
+			};
+			buildConfigurationList = B6FBB381216B794200B820CC /* Build configuration list for PBXProject "FirstGitubApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6FBB37D216B794200B820CC;
+			productRefGroup = B6FBB387216B794200B820CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6FBB385216B794200B820CC /* FirstGitubApp */,
+				B6FBB39D216B794400B820CC /* FirstGitubAppTests */,
+				B6FBB3A8216B794400B820CC /* FirstGitubAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6FBB384216B794200B820CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FBB396216B794400B820CC /* LaunchScreen.storyboard in Resources */,
+				B6FBB393216B794400B820CC /* Assets.xcassets in Resources */,
+				B6FBB391216B794300B820CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FBB39C216B794400B820CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FBB3A7216B794400B820CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6FBB382216B794200B820CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FBB38E216B794300B820CC /* ViewController.m in Sources */,
+				B6FBB399216B794400B820CC /* main.m in Sources */,
+				B6FBB38B216B794300B820CC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FBB39A216B794400B820CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FBB3A3216B794400B820CC /* FirstGitubAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FBB3A5216B794400B820CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FBB3AE216B794400B820CC /* FirstGitubAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6FBB3A0216B794400B820CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6FBB385216B794200B820CC /* FirstGitubApp */;
+			targetProxy = B6FBB39F216B794400B820CC /* PBXContainerItemProxy */;
+		};
+		B6FBB3AB216B794400B820CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6FBB385216B794200B820CC /* FirstGitubApp */;
+			targetProxy = B6FBB3AA216B794400B820CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6FBB38F216B794300B820CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6FBB390216B794300B820CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6FBB394216B794400B820CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6FBB395216B794400B820CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6FBB3B0216B794400B820CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6FBB3B1216B794400B820CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6FBB3B3216B794400B820CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FirstGitubApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kupe.app.FirstGitubApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6FBB3B4216B794400B820CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FirstGitubApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kupe.app.FirstGitubApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6FBB3B6216B794400B820CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FirstGitubAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kupe.app.FirstGitubAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstGitubApp.app/FirstGitubApp";
+			};
+			name = Debug;
+		};
+		B6FBB3B7216B794400B820CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FirstGitubAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kupe.app.FirstGitubAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstGitubApp.app/FirstGitubApp";
+			};
+			name = Release;
+		};
+		B6FBB3B9216B794400B820CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FirstGitubAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kupe.app.FirstGitubAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FirstGitubApp;
+			};
+			name = Debug;
+		};
+		B6FBB3BA216B794400B820CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FirstGitubAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kupe.app.FirstGitubAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FirstGitubApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6FBB381216B794200B820CC /* Build configuration list for PBXProject "FirstGitubApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FBB3B0216B794400B820CC /* Debug */,
+				B6FBB3B1216B794400B820CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6FBB3B2216B794400B820CC /* Build configuration list for PBXNativeTarget "FirstGitubApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FBB3B3216B794400B820CC /* Debug */,
+				B6FBB3B4216B794400B820CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6FBB3B5216B794400B820CC /* Build configuration list for PBXNativeTarget "FirstGitubAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FBB3B6216B794400B820CC /* Debug */,
+				B6FBB3B7216B794400B820CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6FBB3B8216B794400B820CC /* Build configuration list for PBXNativeTarget "FirstGitubAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FBB3B9216B794400B820CC /* Debug */,
+				B6FBB3BA216B794400B820CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6FBB37E216B794200B820CC /* Project object */;
+}
